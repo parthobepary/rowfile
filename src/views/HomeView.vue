@@ -1,15 +1,15 @@
 <template>
-  <hello-world />
+  <CoursesCatagoris />
 </template>
 
 <script>
-import HelloWorld from "../components/HelloWorld";
+import CoursesCatagoris from "../components/CoursesCatagoris.vue";
 
 export default {
   name: "HomeView",
 
   components: {
-    HelloWorld,
+    CoursesCatagoris,
   },
 };
 </script>

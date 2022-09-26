@@ -1,8 +1,5 @@
 <template>
   <v-app>
-    <v-app-bar app color="primary" dark>
-      <h1>hellooo</h1>
-    </v-app-bar>
     <v-main>
       <router-view />
     </v-main>
@@ -12,9 +9,5 @@
 <script>
 export default {
   name: "App",
-
-  data: () => ({
-    //
-  }),
 };
 </script>
